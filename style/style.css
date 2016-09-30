@@ -1,0 +1,36 @@
+.GoogleLogo{
+	margin-top: 200px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	width: 400px;
+	height: 160px;
+	position: relative;
+}
+
+.SearchBar{
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	width: 600px;
+	height: 30px;
+	position: relative;
+	background-color: green;
+}
+
+div .SearchBar input{
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+	font-family: Courier;
+}
+
+.Buttons{
+	background-color: red;
+	width: 600px;
+	height: 30px;
+	margin-top: 900px;
+	position: fixed;
+	margin-left: 500px;
+}
