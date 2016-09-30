@@ -1,5 +1,5 @@
 .GoogleLogo{
-	margin-top: 200px;
+	margin-top: 150px;
 	margin-right: auto;
 	margin-bottom: 0;
 	margin-left: auto;
@@ -19,7 +19,7 @@
 	background-color: green;
 }
 
-div .SearchBar input{
+.SearchBar input{
 	width: 100%;
 	height: 100%;
 	font-size: 18px;
@@ -36,7 +36,7 @@ div .SearchBar input{
 	position: relative;
 }
 
-div .Buttons .SearchButtonContainer{
+.Buttons .SearchButtonContainer{
 	width: 21%;
 	height: 60%;
 	background-color: #ebeaeb;
@@ -45,12 +45,12 @@ div .Buttons .SearchButtonContainer{
 	position: absolute;
 	left: 162px;
 	border-radius: 2px;
-	font-family: Arial, serif;
-	color: #6b6b6b;
+    font-family: arial,sans-serif;
+	color: #757575;
 	font-size: 13px;
 }
 
-div .Buttons .RandomButtonContainer{
+.Buttons .RandomButtonContainer{
 	width: 25%;
 	height: 60%;
 	background-color: #ebeaeb;
@@ -59,17 +59,17 @@ div .Buttons .RandomButtonContainer{
 	position: absolute;
 	left: 310px;
 	border-radius: 2px;
-	font-family: Arial, serif;
-	color: #6b6b6b;
+    font-family: arial,sans-serif;
+	color: #757575;
 	font-size: 13px;
 }
 
-div .Buttons .SearchButtonContainer .SearchButton{
+.Buttons .SearchButtonContainer .SearchButton{
 	width: 99%;
 	height: 99%;
 }
 
-div .Buttons .RandomButtonContainer .RandomButton{
+.Buttons .RandomButtonContainer .RandomButton{
 	width: 99%;
 	height: 99%;
 }
@@ -118,4 +118,41 @@ div .Buttons .RandomButtonContainer .RandomButton{
 
 .RandomText .RandomTextLink:hover{
 	text-decoration: underline;
+}
+
+.NavBarContainer{
+	height: 50px;
+	/*background-color: #F38630;*/
+	margin-bottom: 10px;
+}
+
+.NavBarContainer .AnyLinkDiv{
+	width: 2%;
+	height: 100%;
+	display: inline-block;
+	float: right;
+	position: relative;
+	min-width: 50px;
+}
+
+.NavBarContainer div a{
+	color: #000;
+	opacity: .75;
+	text-decoration: none;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+.NavBarContainer .AnyLinkDiv .NavLinks:hover{
+	text-decoration: underline;
+}
+
+.NavBarContainer .AnyLinkDiv .NavLinks{
+	opacity: .75;
 }
