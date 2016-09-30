@@ -97,3 +97,25 @@ div .Buttons .RandomButtonContainer .RandomButton{
     height: 58%;
     padding-top: 8px;
 }
+
+.RandomText{
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	width: 610px;
+	height: 40px;
+	position: relative;
+	text-align: center;
+	font-size: 14px;
+	font-family: Tahoma;
+}
+
+.RandomText .RandomTextLink{
+	color: blue;
+	text-decoration: none;
+}
+
+.RandomText .RandomTextLink:hover{
+	text-decoration: underline;
+}
