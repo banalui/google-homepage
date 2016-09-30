@@ -122,7 +122,6 @@
 
 .NavBarContainer{
 	height: 50px;
-	/*background-color: #F38630;*/
 	margin-bottom: 10px;
 }
 
@@ -155,4 +154,82 @@
 
 .NavBarContainer .AnyLinkDiv .NavLinks{
 	opacity: .75;
+}
+
+.Footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #efefef;
+  height: 40px;
+}
+
+.FooterContainerLeft{
+	height: 100%;
+	width: 50%;
+	position: relative;
+	float: left;
+}
+.FooterContainerRight{
+	height: 100%;
+	width: 50%;
+	position: relative;
+	float: right;
+}
+
+.BottomLinksRight{
+	width: 5%;
+	height: 100%;
+	display: inline-block;
+	float: right;
+	position: relative;
+	min-width: 50px;
+	padding-right: 30px;
+}
+
+.BottomLinksRight a{
+	color: #757575;
+	opacity: .75;
+	text-decoration: none;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+.BottomLinksRight a:hover{
+	text-decoration: underline;
+}
+
+.BottomLinksLeft{
+	width: 5%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	position: relative;
+	min-width: 50px;
+	padding-left: 30px;
+}
+
+.BottomLinksLeft a{
+	color: #757575;
+	opacity: .75;
+	text-decoration: none;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+.BottomLinksLeft a:hover{
+	text-decoration: underline;
 }
